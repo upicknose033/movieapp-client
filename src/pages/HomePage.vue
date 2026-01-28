@@ -12,10 +12,10 @@ const isLoggedIn = computed(() => !!store.token);
       <div class="container text-center text-md-start">
         <div class="row align-items-center">
           <div class="col-lg-6">
-            <h1 class="display-2 fw-bold mb-3 animate-fade-in">
+            <h1 class="display-2 fw-bold mb-3 animate-fade-in text-dark">
               Your Personal <span class="text-danger">Cinema</span> Vault
             </h1>
-            <p class="lead mb-4 opacity-75">
+            <p class="lead mb-4 opacity-75 text-dark">
               Discover, organize, and manage your favorite films in one sleek interface. 
               From cult classics to modern masterpieces, keep your collection at your fingertips.
             </p>
